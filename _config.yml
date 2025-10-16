@@ -1,16 +1,2 @@
 title: Tech Notes
 theme: jekyll-theme-architect
-
-collections:
-  java:
-    output: true
-  nosql:
-    output: true
-  distributed:
-    output: true
-defaults:
-  - scope:
-      path: ""
-      type: java
-    values:
-      layout: page  # Use a custom layout if needed
