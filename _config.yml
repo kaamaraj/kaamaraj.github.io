@@ -1,2 +1,5 @@
 title: Tech Notes
-theme: jekyll-theme-architect
+description: Tech notes for my personal use and reference
+theme: minima
+markdown: kramdown
+highlighter: rouge
