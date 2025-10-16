@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a> |
+        <a href="{{ '/java/' | relative_url }}">Java</a> |
+        <a href="{{ '/python/' | relative_url }}">Python</a> |
+        <a href="{{ '/web/' | relative_url }}">Web</a>
+      </nav>
+      <hr/>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <hr/>
+      <small>© {{ site.time | date: '%Y' }} — {{ site.title }}</small>
+    </footer>
+  </body>
+</html>
