@@ -1,6 +1,12 @@
 ---
-title: Java Tutorials
-permalink: /java/
+layout: default
+title: Java Notes
 ---
-# Java Category
-Welcome to Java resources...
+
+# ☕ Java Notes
+
+Welcome to the Java section!
+
+- [Basics](basics.md)
+- [Spring](spring.md)
+- [Back to Home](../index.md)
